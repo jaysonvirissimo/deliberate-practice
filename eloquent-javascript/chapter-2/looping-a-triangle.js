@@ -1,6 +1,6 @@
-var triangle = '';
+let triangle = '';
 
-for (var number = 0; number < 7; number++) {
+for (let index = 0; index < 7; index++) {
   triangle += '#';
   console.log(triangle);
 }

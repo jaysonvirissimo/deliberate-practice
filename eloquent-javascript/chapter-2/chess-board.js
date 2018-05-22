@@ -1,9 +1,10 @@
-for (var row = 0; row < 8; row++) {
-  var topRow = '# # # # ';
-  var bottomRow = ' # # # #';
-  if (row % 2 == 0) {
-    console.log(topRow);
+const topRank = '# # # # ';
+const bottomRank = ' # # # #';
+
+for (let rank = 0; rank < 8; rank++) {
+  if (rank % 2 == 0) {
+    console.log(topRank);
   } else {
-    console.log(bottomRow);
+    console.log(bottomRank);
   }
 }
