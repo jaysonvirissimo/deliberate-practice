@@ -43,3 +43,6 @@ bower.json
 # Ignore Byebug command history file.
 .byebug_history
 .DS_Store
+
+# Ingore tooling for The Elements of Computer Systems
+/the-elements-of-computer-systems/tools
