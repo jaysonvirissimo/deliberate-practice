@@ -166,3 +166,4 @@ function smarterRobot({place, parcels}, route) {
 }
 
 console.log(compareRobots(smarterRobot, [], goalOrientedRobot, []))
+exports.buildGraph = buildGraph;
