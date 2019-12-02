@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 class FuelCounterUpper
-  INPUT_LOCATION = '../data/input.txt'
+  INPUT_LOCATION = 'data/input.txt'
 
   def self.read_input
-
+    IO.readlines(INPUT_LOCATION).map(&:to_i)
   end
 
   def self.call
@@ -16,5 +18,10 @@ class FuelCounterUpper
   end
 
   def call
+    mass / 3 - 2
   end
+
+  private
+
+  attr_reader :mass
 end
